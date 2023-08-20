@@ -1,0 +1,27 @@
+  11  mkdir Checkpoint-DannaMarin
+  12  cd Checkpoint-DannaMarin/
+  13  git init
+  14  git remote add origin https://github.com/Dasomacha/Checkpoint-DannaMarin.git
+  15  touch main.js
+  16  touch index.html
+  17  git status
+  18  git add .
+  19  git commit -m "commit 01 de DannaMarin"
+  20  git branch -m master main
+  21  git push origin main
+  22  git checkout -b feature
+  23  mkdir Hardware Software SeguridadInformatica
+  24  touch Hardware/resumen.txt
+  25  touch Software/resumen.txt
+  26  touch SeguridadInformatica/resumen.txt
+  26  git add .
+  27  git status
+  28  git commit -m "commit 02 de DannaMarin"
+  29  git push origin feature
+  30  git checkout main
+  31  git mv main.js resumenHardware.txt
+  32  git mv index.html resumenSoftware.txt
+  33  echo -e "Ejemplos de software:\n- Navegador web\n- Procesador de texto\n- Reproductor multimedia" > resumenSoftware.txt
+  34  echo -e "Memorias principales de la computadora:\n- Memoria RAM\n- Memoria caché\n- Memoria ROM" > resumenHardware.txt
+  35  touch comandos.txt
+  36  history 40 > comandos.txt

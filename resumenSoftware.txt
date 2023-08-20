@@ -1,0 +1,4 @@
+Ejemplos de software:
+- Navegador web
+- Procesador de texto
+- Reproductor multimedia
