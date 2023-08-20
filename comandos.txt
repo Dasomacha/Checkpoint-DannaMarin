@@ -14,14 +14,18 @@
   24  touch Hardware/resumen.txt
   25  touch Software/resumen.txt
   26  touch SeguridadInformatica/resumen.txt
-  26  git add .
-  27  git status
-  28  git commit -m "commit 02 de DannaMarin"
-  29  git push origin feature
-  30  git checkout main
-  31  git mv main.js resumenHardware.txt
-  32  git mv index.html resumenSoftware.txt
-  33  echo -e "Ejemplos de software:\n- Navegador web\n- Procesador de texto\n- Reproductor multimedia" > resumenSoftware.txt
-  34  echo -e "Memorias principales de la computadora:\n- Memoria RAM\n- Memoria caché\n- Memoria ROM" > resumenHardware.txt
-  35  touch comandos.txt
-  36  history 40 > comandos.txt
+  27  git add .
+  28  git status
+  29  git commit -m "commit 02 de DannaMarin"
+  30  git push origin feature
+  31  git checkout main
+  32  git mv main.js resumenHardware.txt
+  33  git mv index.html resumenSoftware.txt
+  34  echo -e "Ejemplos de software:\n- Navegador web\n- Procesador de texto\n- Reproductor multimedia" > resumenSoftware.txt
+  35  echo -e "Memorias principales de la computadora:\n- Memoria RAM\n- Memoria caché\n- Memoria ROM" > resumenHardware.txt
+  36  touch comandos.txt
+  37  history 40 > comandos.txt
+  38  git add .
+  39  git status
+  40  git commit -m "commit 02 de DannaMarin"
+
